@@ -1,3 +1,8 @@
 spring:
   application:
     name: kafka-lab
+  kafka:
+    bootstrap-servers: localhost:9092
+
+server:
+  port: 8080
